@@ -1,6 +1,8 @@
-/** A C PROGRAM THAT PRINTS 'WITH PROPER GRAMMER,BUT THE OUTCOME IS A PIECE OF ART'*/
 #include <stdio.h>
-
+/**
+ * A c program that prints out a string,
+ * and returns 0 if any error is encountered
+ */
 int main ()
 {
 	printf("with proper grammer,but the outcome is a piece of art,\n");
