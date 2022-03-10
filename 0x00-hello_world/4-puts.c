@@ -2,7 +2,7 @@
 /**
  * Description: using the puts funtion.
  * main: prints inputed string.
- * return: return 0 if program runs correctly.  
+ * return: return 0 if program runs correctly.
  */
 int main(void)
 {
