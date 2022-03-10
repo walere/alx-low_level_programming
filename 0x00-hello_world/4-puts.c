@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * a C program that prints outs an inputed string
- * main - prints this program is a multiligual puzzle
- * return: 0 if code runs correctly 
+ * Description: using the puts funtion.
+ * main: prints inputed string.
+ * return: return 0 if program runs correctly.  
  */
 int main(void)
 {
