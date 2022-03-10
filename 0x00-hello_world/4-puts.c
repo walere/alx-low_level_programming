@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * Description: using the puts funtion.
- * main: prints inputed string.
- * return: return 0 if program runs correctly.
+ * main - This print programming is like a multilingual puzzle.
+ * Use puts.
+ * Return: Return 0 if program runs correctly.
  */
 int main(void)
 {
