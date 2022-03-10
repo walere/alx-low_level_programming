@@ -3,7 +3,7 @@
  * a program that prints the size of various data types to the standard output
  * return 0
  */
-int main ()
+int main (void)
 {
 	printf("size of a char: %zu byte(s)\n", sizeof(char));
 	printf("size of an int: %zu byte(s)\n", sizeof(int));
