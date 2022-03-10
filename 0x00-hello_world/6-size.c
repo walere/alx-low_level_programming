@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * a program that prints the size of various data types
- * return 0
+ * main - program that prints the size of various data types
+ * Use the printf function
+ * Return: Return 0 if program runs correctly.
  */
 int main(void)
 {
@@ -17,5 +18,4 @@ int main(void)
 	printf("size of a long long: %d byte(s)\n", sizeof(lli));
 	printf("size of a float: %d byte(s)\n", sizeof(f));
 	return (0);
-
 }
