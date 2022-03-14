@@ -8,12 +8,16 @@
 
 int main(void)
 {
-	int x = 48;
+	int x;
+	char ch;
 
-	while (x <= 57)
+	for (x = 48; x < 58; x++)
 	{
 		putchar(x);
-		x += 1;
+	}
+	for (ch = 'a'; ch <= 'f'; ch++)
+	{	
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
