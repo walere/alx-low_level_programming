@@ -1,28 +1,24 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 /**
- * print_line - draws a straight line in the terminal
+ * print_diagonal- draws a straight line in the terminal
  * @n: number of times charater should be printed
- * Return: void
+ * Return:void
  */
-int main(void)
+void print_diagonal(int n)
 {
 	int n;
+	int i;
 	int j;
 	char s = ' ';
 	char c = '\\';
 
-	for (n = 8; n > 0; n--)
+	for (i = 1; i <= n; i++)
 	{
-		for (j = 0; j <= n; j++)
+		for (j = 1; j <= i; j++)
 		{
-			printf("%c%c", s, c);
-			printf("\n");
+			_putchar(s);
 		}
-	
-	}	
-	
-	
-	return (0);
-
+			_putchar(c);
+			_putchar('\n');
+		}
 }
