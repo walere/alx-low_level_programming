@@ -1,22 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-/**
- * _strlen - return the length of string
- *
- * @c : string to be counted
- * Return: integer
- */
-
-int _strlen(char *c)
-{
-	int i = 0;
-
-	while (*(c + i) != '\0')
-	{
-		i++;
-	}
-	return (i);
-}
 
 /**
  * _strncat - return the concatenates of 2 strings
@@ -25,17 +7,28 @@ int _strlen(char *c)
  * @n: number of byte
  * Return: destination
  */
+
 char *_strncat(char *dest, char *src, int n)
 {
-	int i, len;
-	len = _strlen(dest);
+	int i;
+	int j;
 
-	i = 0;
-	while (*(src + i) != *(src + i));
-	i++;
-	len++;
-}
-*(dest + len) = '\0';
-return (dest);
+	j = 0;
+
+	for (i = 0; i < 1000; i++)
+	{
+		if (dest[i] == '\0')
+		{
+			break;
+		}
+		j++;
+	}
+
+	for (i = 0; src[i] != '\0' && i < n; i++)
+	{
+		dest[j + i] = src[i];
+	}
+	dest[j + i] = '\0';
+	return (dest);
 }
  
