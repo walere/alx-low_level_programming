@@ -4,6 +4,8 @@
  * argstostr - concatenates all arguments
  * @ac: augument count
  * @av: vector
+ *
+ * Description: code
  * Retrun: pointer
  */
 char *argstostr(int ac, char **av)
