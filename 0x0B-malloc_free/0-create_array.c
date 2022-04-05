@@ -8,8 +8,6 @@
  */
 char *create_array(unsigned int size, char c)
 {
-	unsigned int size;
-	char c;
 	unsigned int i;
 	char *ptrc;
 
@@ -18,7 +16,7 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 	}
 
-	ptrc = (char *)malloc(sizeof(c) * size);
+	ptrc = malloc(sizeof(c) * size);
 
 	if (ptrc == NULL)
 	{
@@ -28,6 +26,6 @@ char *create_array(unsigned int size, char c)
 	for (i = 0; i < size; i++)
 		*(ptrc + i) = c;
 
-	return (c);
+	return (ptrc);
 }
 
